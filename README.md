@@ -1,0 +1,3 @@
+# TypeScript Infinite Loop Bug
+
+This repository demonstrates a common error in TypeScript: creating an infinite loop with a `for` loop.  The `printNumbersInfinite` function originally lacked a proper loop termination condition, resulting in an infinite loop.  The solution provides a corrected version with a `break` statement to fix the issue.  This example highlights the importance of carefully defining loop termination conditions to avoid runtime errors.
